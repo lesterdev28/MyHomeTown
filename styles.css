@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: "Kanit", serif;
+}
+#herosection {
+    background-image: url("/images/Hometown.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    color: aliceblue;
+    height: 800px;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+.title {
+    font-size: px;
+    width: 300px;
+    background: rgba(9, 12, 155, 0.8);
+    border-radius: 5px;
+    line-height: .2;
+    padding: 8px 0px;
+}
+.subtitle {
+    font-size: 18px;
+    margin-top: 20px;
+    width: 250px;
+    background: rgb(180, 197, 228, 0.8);
+    border-radius: 5px;
+    line-height: 1.;
+}
+#secondsection {
+    background: linear-gradient(#3066BE,#FBFFF1);
+    padding: 20px;
+    height: auto !important;
+    text-align: center;
+}
+.imgbcd {
+    width: 200px;
+    height: 200px;
+    max-width: 500px;
+    border-radius: 50%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.activity {
+    width: 500px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+#thirdsection {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#FBFFF1,white);
+}
+.tourguide {
+    margin: 20px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background: #B4C5E4;
+    border-radius: 5px;
+    margin: 100px 0;
+    border-bottom: 8px solid #3066BE;
+}
+.myimg {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.bio {
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1;
+}
