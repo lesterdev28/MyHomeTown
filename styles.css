@@ -34,7 +34,7 @@ body {
 #secondsection {
     background: linear-gradient(#3066BE,#FBFFF1);
     padding: 20px;
-    height: auto !important;
+    height: auto;
     text-align: center;
 }
 .imgbcd {
