@@ -5,7 +5,6 @@ body {
 #herosection {
     background-image: url("/images/Hometown.jpg");
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,4 +85,45 @@ body {
     margin: 20px;
     font-size: 20px;
     line-height: 1;
+}
+@media (max-width: 768px) {
+    #herosection {
+        height: 60vh;
+    }
+    .title {
+        width: 80%;
+        font-size: 24px;
+    }
+    .subtitle {
+        width: 80%;
+        font-size: 16px;
+    }
+    .activity {
+        width: 90%;
+        font-size: 18px;
+    }
+    .tourguide {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .myimg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .activity {
+        font-size: 16px;
+    }
+    .bio {
+        font-size: 18px;
+    }
 }
